@@ -1,0 +1,7 @@
+tag picture - CONSIDERANDO 3 FOTOS DE TAMANHO PEQUENO, MEDIO E GRANDE
+OBS... A ORDEM DOS SOURCES IMPORTA
+<picture>
+	<source media="(max-width: 750px)" srcset="nome da foto" type="image/png">
+	<source media="(max-width: 1050px)" srcset="nome da foto" type="image/png">
+	<img src="nome da foto" alt="imagem fléxivel">
+</picture>
